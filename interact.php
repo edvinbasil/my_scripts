@@ -1,7 +1,7 @@
 <?php
     if (isset($_POST['button']))
     {
-         $equery = "sudo rclone sync /var/www/html/Downloads/ g:rcloned/Downloads ";
+         $equery = "sudo rclone copy /var/www/html/Downloads/ g:rcloned/Downloads ";
          $out = exec("$equery");
          echo $out;
     }
