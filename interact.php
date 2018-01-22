@@ -13,7 +13,7 @@
     <a href="http://edvin.cf:8112">GUI</a><br>
     <form method="post">
     <p>
-        <button name="button">RcloneCopy</button>
+        <button name="button">GDrive</button>
     </p>
     </form>
   </body>
